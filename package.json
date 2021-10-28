@@ -20,7 +20,7 @@
   "homepage": "https://github.com/umairali-bit/Social-Network-Api#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.9.9",
+    "mongoose": "^5.9.7",
     "nodemon": "^2.0.13"
   }
 }
