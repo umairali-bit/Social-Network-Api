@@ -57,10 +57,10 @@ const ThoughtSchema = new Schema(
   }
 );
 
-CommentSchema.virtual('reactionCount').get(function() {
+ThoughtSchema.virtual('reactionCount').get(function() {
   return this.replies.length;
 });
 
-const Comment = model('Thought', ThoughtSchema);
+const Thought = model('Thought', ThoughtSchema);
 
 module.exports = Thought;
